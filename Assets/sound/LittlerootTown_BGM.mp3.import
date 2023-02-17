@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/LittlerootTown_BGM.mp3-afd7025d0f1ea61d7cdef2f53d9e6b68.mp3str"
+
+[deps]
+
+source_file="res://Assets/sound/LittlerootTown_BGM.mp3"
+dest_files=[ "res://.import/LittlerootTown_BGM.mp3-afd7025d0f1ea61d7cdef2f53d9e6b68.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

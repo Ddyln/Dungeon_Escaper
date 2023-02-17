@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/MenuBackground.png" type="Texture" id=1]
+[ext_resource path="res://Setting.gd" type="Script" id=2]
+[ext_resource path="res://DiloWorld-mLJLv.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[node name="Setting" type="Control"]
+margin_right = 1024.0
+margin_bottom = 576.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 384.0
+margin_top = 448.0
+margin_right = 640.0
+margin_bottom = 512.0
+
+[node name="Back" type="Button" parent="VBoxContainer"]
+margin_right = 256.0
+margin_bottom = 20.0
+text = "Back"
+
+[node name="HSlider" type="HSlider" parent="."]
+margin_left = 448.0
+margin_top = 192.0
+margin_right = 640.0
+margin_bottom = 256.0
+min_value = -30.0
+max_value = 0.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 364.0
+margin_top = 213.0
+margin_right = 436.0
+margin_bottom = 245.0
+custom_fonts/font = SubResource( 1 )
+text = " Volume"
+
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_Back_pressed"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]

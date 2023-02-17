@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ButtonFocused.mp3-a55dcc4a953033e76e96e79868df48b5.mp3str"
+
+[deps]
+
+source_file="res://Assets/sound/ButtonFocused.mp3"
+dest_files=[ "res://.import/ButtonFocused.mp3-a55dcc4a953033e76e96e79868df48b5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

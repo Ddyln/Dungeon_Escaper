@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/FinishLevel.mp3-97d89a2b1cd6c50fec4306f537758d92.mp3str"
+
+[deps]
+
+source_file="res://Assets/sound/FinishLevel.mp3"
+dest_files=[ "res://.import/FinishLevel.mp3-97d89a2b1cd6c50fec4306f537758d92.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
