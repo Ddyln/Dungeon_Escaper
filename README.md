@@ -1,1 +1,1 @@
-Download and run the 'Dungeon Escaper.exe' to play.
+Download and run 'Dungeon Escaper.exe' to play.
