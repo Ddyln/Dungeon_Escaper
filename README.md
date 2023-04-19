@@ -1,1 +1,1 @@
-A simple and fun game written in Godot. Download and open the 'Dungeon Escaper.exe' file to try it out XD.
+Download and run the 'Dungeon Escaper.exe' to play.
